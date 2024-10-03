@@ -32,7 +32,7 @@ def create_time_of_day_analysis_df(df):
     return byday_of_time_df
 
 # Memuat data
-main_df = pd.read_csv("main_data.csv")
+main_df = pd.read_csv("dashboard/main_data.csv")
 main_df['dteday'] = pd.to_datetime(main_df['dteday'])
 
 # Mengatur urutan kategori suhu
